@@ -1,6 +1,6 @@
-from data_preprocessing import preprocess_data, clean_data, merge_datasets, extract_features, train_test_split_data
-from train import train_model
-from evaluate import evaluate_model, generate_predictions, save_model
+from src.data_preprocessing import preprocess_data, clean_data, merge_datasets, extract_features, train_test_split_data
+from src.train import train_model
+from src.evaluate import evaluate_model, generate_predictions, save_model
 import logging
 
 # Configure logging
